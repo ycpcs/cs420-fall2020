@@ -1,0 +1,82 @@
+CS420
+HW4
+======
+To be submitted as a PDF via the Assignments tab on Canvas.
+You can handwrite and scan your solutions or generate a PDF 
+from your favorite word processor.  However, only PDFs can 
+be uploaded on Canvas (i.e. no .docx, .txt, .odt will be 
+accepted).
+======
+
+
+
+1) Suppose that the following processes arrive for execution at the times indicated.  Each process
+will run for the amount of time listed.  In answering the questions, use nonpreemptive scheduling, and
+base all decisions on the information you have at the time the decision must be made.
+
+
+    Process    Arrival Time    Burst Time
+    -------    ------------    ----------
+      P1           0.0            8
+      P2           0.4            4
+      P3           1.0            1
+
+a) What is the average turnaround time for these processes with the FCFS scheduling algorithm?
+
+b) What is the average turnaround time for these processes with the SJF scheduling algorithm?
+
+
+
+
+2) Why is it important for the scheduler to distinguish I/O-bound programs from CPU-bound programs?
+
+
+
+
+3) Consider the following set of processes, with the length of the CPU burst given in milliseconds:
+
+    Process    Burst Time    Priority
+    -------    ----------    --------
+      P1           10            3
+      P2            1            1
+      P3            2            3
+      P4            1            4
+      P5            5            2
+      
+
+The processes are assumed to have arrived in the order P1, P2, P3, P4, P5, all at time 0.
+
+a) Draw four Gantt charts that illustrate the execution of these processes using the following scheduling 
+algorithms: FCFS, SJF, nonpreemptive priority (a smaller priority number implies a higher priority), 
+and RR (quantum=1).  In cases where you have a tie, choose the process with the smaller process number first.
+
+
+b) What is the turnaround time of each process for each of the scheduling algorithms in part a?
+
+
+c) What is the waiting time of each process for each of these scheduling algorithms?
+
+
+d) Which of the algorithms results in the minimum average waiting time (over all processes)?
+
+
+
+
+4) Which of the following scheduling algorithms could result in starvation?
+
+a) First-come, first served
+b) Shortest job first
+c) Round robin
+d) Priority
+
+
+
+
+5) Consider a variant of the RR scheduling algorithm in which the entries in the ready queue are pointers to the PCBs.
+
+a) What would be the effect of putting two pointers to the same process in the ready queue?
+
+b) What would be the advantages and disadvantages of this scheme?
+
+c) How would you modify the basic RR algorithm to achieve the same effect without the duplicate pointers?
+

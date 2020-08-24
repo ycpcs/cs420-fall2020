@@ -1,0 +1,49 @@
+CS420
+HW5
+======
+To be submitted as a PDF via the Assignments tab on Canvas.
+You can handwrite and scan your solutions or generate a PDF 
+from your favorite word processor.  However, only PDFs can 
+be uploaded on Canvas (i.e. no .docx, .txt, .odt will be 
+accepted).
+======
+
+
+1) Consider the deadlock situation that could occur in the dining-philosophers 
+problem when the philosophers obtain the chopsticks one at a time. Discuss how the 
+four necessary conditions for deadlock indeed hold in this setting. Discuss how 
+deadlocks could be avoided by eliminating any one of the four conditions.
+
+
+
+
+2) Consider a system consisting of four resources of the same type that are shared 
+by three processes, each of which needs at most two resources. Show that the system is 
+deadlock-free.
+
+
+
+
+3) Consider the following snapshot of a system:
+
+    Process     Allocation         Max         Available
+    -------    ------------    -----------    -----------
+                 A B C D         A B C D        A B C D
+    -------    ------------    -----------    -----------
+      P0         0 0 1 2         0 0 1 2        1 5 2 0
+      P1         1 0 0 0         1 7 5 0
+      P2         1 3 5 4         2 3 5 6
+      P3         0 6 3 2         0 6 5 2
+      P4         0 0 1 4         0 6 5 6
+
+Answer the following questions using the banker’s algorithm:
+
+a) What is the content of the matrix Need?
+
+b) Is the system in a safe state?  If so, provide a sequence that would allow all 
+processes to run to completion
+
+c) If a request from process P1 arrives for (0,4,2,0), can the request be granted 
+immediately (i.e. would the system still be in a safe state if the request were
+granted)?  If so, provide a safe sequence that would allow all processes to run to
+completion.

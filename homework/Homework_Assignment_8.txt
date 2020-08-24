@@ -1,0 +1,47 @@
+CS420
+HW8
+======
+To be submitted as a PDF via the Assignments tab on Canvas.
+You can handwrite and scan your solutions or generate a PDF 
+from your favorite word processor.  However, only PDFs can 
+be uploaded on Canvas (i.e. no .docx, .txt, .odt will be 
+accepted).
+======
+
+
+1)  Consider a file currently consisting of 80 blocks.  Calculate how many disk I/O operations are required for contiguous, linked, and indexed (single-level) allocation strategies for the scenarios provide in (a), (b), and (c).
+Foe each, make the following assumptions: 
+  - the file control block will need to be both read and written (not currently cached)
+  - the directory structure is contained in a single block
+  - the directory structure will need to be read, but may or may not need to be rewritten
+
+    a) The block is added at the beginning.    b) The block is added in the middle.    c) The block is added at the end.
+
+
+
+2)  Consider a file currently consisting of 45 blocks.  Calculate how many disk I/O operations are required for contiguous, linked, and indexed (single-level) allocation strategies for the scenarios provide in (a), (b), and (c).
+Foe each, make the following assumptions: 
+  - the file control block will need to be both read and written (not currently cached)
+  - the directory structure is contained in a single block
+  - the directory structure will need to be read, but may or may not need to be rewritten
+
+    a) The block is removed from the beginning.    b) The block is removed from the middle.    c) The block is removed from the end.
+
+3)  Why must the bit map for file allocation be kept on mass storage, rather than in main memory?
+
+4)  What are the advantages of the variation of linked allocation that uses a FAT to chain together the blocks of a file?
+
+
+
+5)  Suppose that a disk drive has 5000 cylinders, numbered 0 to 4999. The drive is currently serving a request at cylinder 143, and the previous request was at cylinder 125. The queue of pending requests, in FIFO order, is:
+
+    86, 1470, 913, 1774, 948, 1509, 1022, 1750, 130
+
+Starting from the current head position, what is the total distance (in cylinders) that the disk arm moves to satisfy all the pending requests, for each of the following disk-scheduling algorithms?
+
+    a) FCFS
+    b) SSTF    c) SCAN 
+    d) LOOK    e) C-SCAN
+    f) C-LOOK
+
+

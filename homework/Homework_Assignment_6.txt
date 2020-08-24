@@ -1,0 +1,50 @@
+CS420
+HW6
+======
+To be submitted as a PDF via the Assignments tab on Canvas.
+You can handwrite and scan your solutions or generate a PDF 
+from your favorite word processor.  However, only PDFs can 
+be uploaded on Canvas (i.e. no .docx, .txt, .odt will be 
+accepted).
+======
+
+
+1) Given five memory partitions of 100 KB, 500 KB, 200 KB, 300 KB, and 
+600 KB (in order), how would each of the first-fit, best-fit, and worst-fit 
+algorithms place processes of 212 KB, 417 KB, 112 KB, and 426 KB (in order)? 
+Which algorithm makes the most efficient use of memory?
+
+
+
+2) Assuming a 1 KB (1024 bytes) page size, what are the page numbers and offsets for 
+the following address references (provided as decimal numbers).  Assume that 
+both pages and page offsets are indexed starting at 0.  That is, the first 
+page is page 0.  
+
+    a) 2375
+    b) 19366
+    c) 30000
+    d) 256
+    e) 16385
+
+
+
+3) Consider a logical address space of 32 pages with 1024 bytes per page; 
+mapped onto a physical memory of 16 frames.
+
+    a) How many bits are required in the logical address?
+    b) How many bits are required in the physical address?
+
+
+
+4) Consider a paging system with the page table stored in memory.
+
+    a) If a memory reference takes 200 nanoseconds, how long does a paged 
+       memory reference take?
+    b) If we add associative registers, and 75 percent of all page-table 
+       references are found in the associative registers, what is the effective 
+       memory reference time? (Assume that finding a page-table entry in the 
+       associative registers takes zero time if the entry is there.)
+
+
+

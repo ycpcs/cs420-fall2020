@@ -1,0 +1,62 @@
+CS420
+HW3
+======
+To be submitted as a PDF via the Assignments tab on Canvas.
+You can handwrite and scan your solutions or generate a PDF 
+from your favorite word processor.  However, only PDFs can 
+be uploaded on Canvas (i.e. no .docx, .txt, .odt will be 
+accepted).
+======
+
+1) Can a multithreaded solution using multiple user-level threads achieve better performance on a multiprocessor system than on a single-processor system?  Yes or No or “it depends”?  Explain.
+
+
+
+
+2) The program shown below uses the Pthreads API.  What would be the output from the program at LINE C and LINE P?  Briefly explain how you arrived at your answer.
+
+    #include <pthread.h>
+    #include <stdio.h>
+
+    int value = 0;
+    void *runner(void *param);  /* the thread */
+
+
+    int main(int argc, char *argv[])
+    {
+        int pid;
+        pthread_t tid;
+        pthread_attr_t attr;
+
+        pid = fork();
+
+        if (pid == 0) {  /* child process */
+            pthread_attr_init(&attr);
+            pthread_create(&tid, &attr, runner, NULL);
+            pthread_join(tid, NULL);
+            printf("CHILD: value = %d\n", value);  /* LINE C */
+        }
+        else if (pid > 0) {  /* parent process */
+            wait(NULL);
+            printf("PARENT: value = %d\n", value);  /* LINE P */
+        }
+    }
+
+    void *runner(void *param) {
+        value = 5;
+        pthread_exit(0);
+    }
+
+
+
+
+3) Consider a multiprocessor system and a multithreaded program written using the many-to-many threading model.  Let the number of user-level threads in the program be more than the number of processors in the system.  Discuss the performance implications of the following scenarios.
+
+a) The number of kernel threads allocated to the program is less than the number of processors.
+
+b) The number of kernel threads allocated to the program is equal to the number of processors.
+
+c) The number of kernel threads allocated to the program is greater than the number of processors but less than the number of user-level threads. 
+
+
+
