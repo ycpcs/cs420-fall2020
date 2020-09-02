@@ -5,7 +5,7 @@ title: WSL2 Installation
 ---
 
 <hr><br>
-This page contains a step-by-step guide through the installation of WSL2 on Windows 10.
+## This page contains a step-by-step guide through the installation of WSL2 on Windows 10.
 
 <hr><br><!-- =============================================================== -->
 
