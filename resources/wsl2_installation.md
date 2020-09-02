@@ -40,7 +40,9 @@ taskbar.  Click on the icon and select **Yes** to allow the program to make chan
 Copy and paste the following command into **Powershell** window.  To paste into a Powershell 
 windows, right click on the titlebar of the **Powershell** window, select **Edit** and then **Paste**.
 
-```dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart```
+```
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
 
 Wait for the operation to complete.
 
@@ -51,7 +53,9 @@ Wait for the operation to complete.
 **Step 1:** While still in **Powershell**, copy and paste the command below.  If you've
 already closed your **Powershell** window, start it back up again as an Administrator.
 
-```dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart```
+```
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
 
 Wait for the operation to complete.
 
@@ -62,7 +66,9 @@ Wait for the operation to complete.
 **Step 3:** To set your WSL environment to always run as a WSL2 virtual machine, once 
 again open **Powershell** as an Administrator and copy/paste the following command:
 
-```wsl --set-default-version 2```
+```
+wsl --set-default-version 2
+```
 
 When the command completes, you can close your **Powershell** window.
 
@@ -87,7 +93,9 @@ virtual machine.  Create your username/password to finalize the installation.
 **Step 1:** Copy and paste the following command into your new **Linux shell** to 
 update the package manager. You will be prompted for the password that you recently 
 created for this Linux VM.
-```sudo apt-get -y update```
+```
+sudo apt-get -y update
+```
 
 
 **Step 2:** Copy and paste the following block of commands into your new **Linux shell**
