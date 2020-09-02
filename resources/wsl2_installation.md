@@ -28,7 +28,7 @@ this guide.
 
 <!-- =============================================================== -->
 
-You can follow Microsoft's office documentation [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
+You can follow [Microsoft's official documentation here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
 or you can follow along with this abridged version.
 
 **Step 1:** Open **Powershell** as an Administrator by typing **Powershell** into the 
