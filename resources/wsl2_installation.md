@@ -10,9 +10,9 @@ title: WSL2 Installation
 <hr><br><!-- =============================================================== -->
 
 
-### Checking for Compatibility 
+### Checking for Compatibility
 
-<!-- =============================================================== -->
+<br><!-- =============================================================== -->
 
 Prior to following this guide, be sure to verify that you have the most recent version
 of Windows 10 installed.  You can check your Windows version by first selecting the 
