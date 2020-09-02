@@ -23,7 +23,7 @@ type **winver**, and select **OK**.
 At minimum, you must have version **1903** installed prior to following this guide. If you
 are running a version number lower than **1903** run Windows update before continuing with 
 this guide.
-<br>
+<br><br>
 
 
 ### Install the Windows Subsystem for Linux 
@@ -46,7 +46,7 @@ windows, right click on the titlebar of the **Powershell** window, select **Edit
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 Wait for the operation to complete.
-<br>
+<br><br>
 
 
 ### Update WSL to WSL 2 
@@ -69,7 +69,7 @@ wsl --set-default-version 2
 ```
 
 When the command completes, you can close your **Powershell** window.
-<br>
+<br><br>
 
 
 ### Install Linux Distribution of Your Choice 
@@ -84,7 +84,7 @@ Run your distro from the start menu.
 
 **Step 3:** On the first run, you will need to create a username and password for this 
 virtual machine.  Create your username/password to finalize the installation.
-<br>
+<br><br>
 
 
 ### Install Build Tools 
