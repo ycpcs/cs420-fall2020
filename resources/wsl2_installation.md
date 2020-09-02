@@ -16,8 +16,8 @@ title: WSL2 Installation
 <hr><!-- =============================================================== -->
 
 Prior to following this guide, be sure to verify that you have the most recent version
-of Windows 10 installed.  You can check your Windows version by first selecting the 
-**Windows logo key + R** to open the **Run** dialog box. In the **Run** dialog box 
+of Windows 10 installed.  You can check your Windows version by holding down the  
+**Windows Logo KeyR** and pressing **R** to open the **Run** dialog box. In the **Run** dialog box 
 type **winver**, and select **OK**. 
 
 At minimum, you must have version **1903** installed prior to following this guide. If you
