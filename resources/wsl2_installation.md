@@ -11,6 +11,7 @@ This page contains a step-by-step guide through the installation of WSL2 on Wind
 
 
 ### Checking for Compatibility 
+
 <!-- =============================================================== -->
 
 Prior to following this guide, be sure to verify that you have the most recent version
@@ -24,6 +25,7 @@ this guide.
 
 
 ### Install the Windows Subsystem for Linux 
+
 <!-- =============================================================== -->
 
 You can follow Microsoft's office documentation [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
