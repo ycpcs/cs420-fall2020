@@ -11,7 +11,6 @@ title: WSL2 Installation
 
 
 ### Checking for Compatibility
-
 <hr><!-- =============================================================== -->
 
 Prior to following this guide, be sure to verify that you have the most recent version
@@ -24,9 +23,9 @@ are running a version number lower than **1903** run Windows update before conti
 this guide.
 
 
+<br>
 ### Install the Windows Subsystem for Linux 
-
-<!-- =============================================================== -->
+<hr><!-- =============================================================== -->
 
 You can follow [Microsoft's official documentation here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
 or you can follow along with this abridged version.
