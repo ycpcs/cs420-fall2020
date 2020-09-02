@@ -4,13 +4,14 @@ course_number: CS420
 title: WSL2 Installation
 ---
 
+<hr><br>
 This page contains a step-by-step guide through the installation of WSL2 on Windows 10.
 
 <hr><br><!-- =============================================================== -->
 
-### Checking for Compatibility
 
-<hr><br><!-- =============================================================== -->
+### Checking for Compatibility 
+<!-- =============================================================== -->
 
 Prior to following this guide, be sure to verify that you have the most recent version
 of Windows 10 installed.  You can check your Windows version by first selecting the 
@@ -22,9 +23,8 @@ are running a version number lower than **1903** run Windows update before conti
 this guide.
 
 
-### Install the Windows Subsystem for Linux
-
-<hr><br><!-- =============================================================== -->
+### Install the Windows Subsystem for Linux 
+<!-- =============================================================== -->
 
 You can follow Microsoft's office documentation [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
 or you can follow along with this abridged version.
@@ -45,9 +45,8 @@ windows, right click on the titlebar of the **Powershell** window, select **Edit
 Wait for the operation to complete.
 
 
-### Update WSL to WSL 2
-
-<hr><br><!-- =============================================================== -->
+### Update WSL to WSL 2 
+<!-- =============================================================== -->
 
 **Step 1:** While still in **Powershell**, copy and paste the command below.  If you've
 already closed your **Powershell** window, start it back up again as an Administrator.
@@ -68,9 +67,8 @@ again open **Powershell** as an Administrator and copy/paste the following comma
 When the command completes, you can close your **Powershell** window.
 
 
-### Install Linux Distribution of Your Choice
-
-<hr><br><!-- =============================================================== -->
+### Install Linux Distribution of Your Choice 
+<!-- =============================================================== -->
 
 **Step 1:** Open the **Microsoft Store** application on your Windows 10 machine and 
 search for Linux.  You'll see several options including Ubuntu, Debian, SUSE, and Kali.
@@ -84,7 +82,7 @@ virtual machine.  Create your username/password to finalize the installation.
 
 
 ### Install Build Tools 
-<hr><br><!-- =============================================================== -->
+<!-- =============================================================== -->
 
 **Step 1:** Copy and paste the following command into your new **Linux shell** to 
 update the package manager. You will be prompted for the password that you recently 
