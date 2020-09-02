@@ -48,8 +48,9 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 Wait for the operation to complete.
 
 
+<br>
 ### Update WSL to WSL 2 
-<!-- =============================================================== -->
+<hr><!-- =============================================================== -->
 
 **Step 1:** While still in **Powershell**, copy and paste the command below.  If you've
 already closed your **Powershell** window, start it back up again as an Administrator.
@@ -74,8 +75,9 @@ wsl --set-default-version 2
 When the command completes, you can close your **Powershell** window.
 
 
+<br>
 ### Install Linux Distribution of Your Choice 
-<!-- =============================================================== -->
+<hr><!-- =============================================================== -->
 
 **Step 1:** Open the **Microsoft Store** application on your Windows 10 machine and 
 search for Linux.  You'll see several options including Ubuntu, Debian, SUSE, and Kali.
@@ -88,8 +90,9 @@ Run your distro from the start menu.
 virtual machine.  Create your username/password to finalize the installation.
 
 
+<br>
 ### Install Build Tools 
-<!-- =============================================================== -->
+<hr><!-- =============================================================== -->
 
 **Step 1:** Copy and paste the following command into your new **Linux shell** to 
 update the package manager. You will be prompted for the password that you recently 
