@@ -4,11 +4,13 @@ course_number: CS420
 title: WSL2 Installation
 ---
 
-<hr><br>
-## This page contains a step-by-step guide through the installation of WSL2 on Windows 10.
+<br>
 
-<hr><br><!-- =============================================================== -->
+### This page contains a step-by-step guide through the installation of WSL2 on Windows 10.
 
+<hr><!-- =============================================================== -->
+
+<br>
 
 ### Checking for Compatibility
 <hr><!-- =============================================================== -->
@@ -21,9 +23,9 @@ type **winver**, and select **OK**.
 At minimum, you must have version **1903** installed prior to following this guide. If you
 are running a version number lower than **1903** run Windows update before continuing with 
 this guide.
-
-
 <br>
+
+
 ### Install the Windows Subsystem for Linux 
 <hr><!-- =============================================================== -->
 
@@ -40,30 +42,24 @@ taskbar.  Click on the icon and select **Yes** to allow the program to make chan
 **Step 2:** 
 Copy and paste the following command into **Powershell** window.  To paste into a Powershell 
 windows, right click on the titlebar of the **Powershell** window, select **Edit** and then **Paste**.
-
 ```
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
-
 Wait for the operation to complete.
-
-
 <br>
+
+
 ### Update WSL to WSL 2 
 <hr><!-- =============================================================== -->
 
 **Step 1:** While still in **Powershell**, copy and paste the command below.  If you've
 already closed your **Powershell** window, start it back up again as an Administrator.
-
 ```
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
-
 Wait for the operation to complete.
 
-
 **Step 2:** Reboot your machine.
-
 
 **Step 3:** To set your WSL environment to always run as a WSL2 virtual machine, once 
 again open **Powershell** as an Administrator and copy/paste the following command:
@@ -73,9 +69,9 @@ wsl --set-default-version 2
 ```
 
 When the command completes, you can close your **Powershell** window.
-
-
 <br>
+
+
 ### Install Linux Distribution of Your Choice 
 <hr><!-- =============================================================== -->
 
@@ -88,9 +84,9 @@ Run your distro from the start menu.
 
 **Step 3:** On the first run, you will need to create a username and password for this 
 virtual machine.  Create your username/password to finalize the installation.
-
-
 <br>
+
+
 ### Install Build Tools 
 <hr><!-- =============================================================== -->
 
