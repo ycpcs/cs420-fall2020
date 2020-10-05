@@ -135,6 +135,10 @@ It's time to make the worker routine of your thread actually do some work.  Each
 
 Use **semaphores/mutexes** as you see necessary. When all of the threads complete and all of the processes terminate the shared file should contain the numeric values **```0```** through **```(P * T)```**,  *IN ASCENDING ORDER*.  If your values are not in ascending order, or if some of the values are repeated/missing then you should re-evaluate how you are using semaphores because you've made a mistake somewhere.
 
+**Hints:** 
+
+ * There are many different ways to read/write files.  Consider using the following functions **``fseek``**, **``ftell``**, **``getc``**, and **``fscanf``**.
+ * Do NOT read the entire file with each new thread as that will give you O(n^2) behavior.  Instead, consider **jumping** to the end of the file and then walking backwards to find the last line.
 
 
 <br>
